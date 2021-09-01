@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti&family=Raleway:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body{
+    font-family: 'Merriweather',sans-serif;
+    height: 100vh;
+}
+*{
+    scroll-behavior: smooth;
+}
+h2{
+    padding-left: 2rem;
+    margin-top: 0%;
+    background-color: bisque;
+}
+img{
+    height: 150px;
+    width: 150px;
+    /* padding: 2rem; */
+    padding-top: 0%;
+    margin-left: 10rem;
+    border-radius: 50%;
+    border: solid rgba(182, 88, 88, 0.527);
+    box-shadow: 5px 5px 10px rgba(247, 171, 171, 0.582);
+}
+ul{
+    color: rgb(24, 4, 26)
+}
+.intro{
+    display: flex;
+    padding-left: 3rem;
+    flex-wrap: wrap;
+}
+.education{
+    padding-left: 2rem;
+}
+.container{
+    color: black;
+    font-size: 1rem;
+    padding-left: 2rem;
+    
+}
+#list{
+    color: black;
+    background-color: bisque;
+    padding-left: 2rem;
+}
+.list-non-bullet{
+    list-style: none;
+    margin-left: auto;
+}
+.navbar{
+    display: flex;
+    /* margin-bottom: 0%;
+    padding-bottom: 0%; */
+}
+.list-non-bullet li{
+    display: inline;
+    padding: 0 1rem;
+    font-size: 0.75rem;
+}
+#project{
+    width: 200px;
+    height: 150px;
+    border: solid rgba(153, 74, 74, 0.521);
+    border-radius: 10% 10%;
+    box-shadow: 5px 5px 10px rgb(173, 92, 92);
+    /* padding: 1rem; */
+    text-align: center;
+    margin-left: 2rem;
+}
+.reach_me{
+    padding-left: 2rem;
+}
